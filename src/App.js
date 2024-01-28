@@ -21,8 +21,8 @@ import './App.css';
 
 function App() {
   const contract = "TBA"; 
-  const tgLink = "https://t.me/asd";
-  const twLink = "https://x.com/asd";
+  const tgLink = "https://t.me/cathubsol";
+  const twLink = "https://twitter.com/CatHubSol";
   const [popupVisible, setPopupVisible] = useState(false);
 
   const showPopup = () => {
