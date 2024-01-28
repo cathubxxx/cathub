@@ -45,8 +45,8 @@ function App() {
               <h5 className="contract">CA: {contract}</h5>
             </div>
             <div className="socialBlock">
-              <img alt="telegram" src={tg}/>
-              <img alt="twitter" src={tw}/>
+              <a href={tgLink}><img alt="telegram" src={tg}/></a>
+              <a href={twLink}><img alt="twitter" src={tw}/></a>
             </div>
           </div>
           <div className="mobMainBlock">

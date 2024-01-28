@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import './Overlay.css';
 
 export default function Overlay({ playAudio, playVideo }) {
   const [isOpen, setIsOpen] = useState(true);
-  const [animateImages, setAnimateImages] = useState(false);
 
   function toggle() {
     setIsOpen((prevIsOpen) => !prevIsOpen);
